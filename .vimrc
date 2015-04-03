@@ -56,10 +56,10 @@ set history=1000
 set cursorline                  "Highlight current line
 set ruler                       "Show line,col
 set number                      "Line numbers
-set guioptions=aAce
 colorscheme ir_black
 
 if has("gui_running")
+    set guioptions=aAce
     set guifont=Ubuntu\ Mono\ 12
 endif
 
